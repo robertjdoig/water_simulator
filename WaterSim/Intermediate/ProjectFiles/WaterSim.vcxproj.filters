@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\WaterSim.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{34824C04-D6A3-434A-A2FB-D185BE4176AF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\WaterSim.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\WaterSimEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{0222FB08-E511-4B76-84C5-EF652276F19F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\WaterSim">
+			<UniqueIdentifier>{798DD738-AB13-46AE-A891-64DAA68296E6}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\WaterSim\genMesh.cpp">
+			<Filter>Source\WaterSim</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\WaterSim\genMesh.h">
+			<Filter>Source\WaterSim</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\WaterSim\WaterSim.Build.cs">
+			<Filter>Source\WaterSim</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\WaterSim\WaterSim.cpp">
+			<Filter>Source\WaterSim</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\WaterSim\WaterSim.h">
+			<Filter>Source\WaterSim</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
